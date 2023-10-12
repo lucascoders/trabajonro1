@@ -1,0 +1,152 @@
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(fotos.css/banner_home_hrv_ago2022.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    width: auto;
+    max-height: 400px;
+    background-color: transparent;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #f4eded;
+
+}
+
+.contacto{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+
+}
+.contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+    flex-grow: 1;
+}
+
+header {
+    background-color: #222222;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#titulo {
+    color: red;
+    font-size: 24px;
+    text-align: left;
+}
+
+
+nav {
+    background-color: #444;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+.footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    background-color: #222222;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 18px;
+        margin: 0;
+        padding: 0%;
+        background-image: url(fotos.css/banner_home_hrv_ago2022.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: Arial, sans-serif;
+        width: 100%
+}
+    .col-md-4 {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .col-md-4 img {
+        width: 100%;
+        height: auto;
+    }
+.column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+}
